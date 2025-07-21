@@ -81,6 +81,7 @@ defmodule BCApis.MixProject do
       {:mix_test_watch, "~> 1.1", only: [:dev, :test], runtime: false},
       {:eunit_formatters, "~> 0.5", only: [:test], runtime: false},
       {:excoveralls, "~> 0.18", only: [:test], runtime: false},
+      {:stream_data, "~> 0.5", only: [:dev, :test]},
 
       # Runtime dependencies - optional
       {:jason, "~> 1.4", optional: true},
